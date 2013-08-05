@@ -54,7 +54,6 @@
     <modules>
         <module>component</module>
         <module>gwt</module>
-        <module>app</module>
     </modules>
 
     <properties>
