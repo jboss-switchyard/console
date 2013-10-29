@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.switchyard.console</groupId>
     <artifactId>switchyard-console-parent</artifactId>
-    <version>1.0.1.Final</version>
+    <version>1.1.0.Final-HAL</version>
     <packaging>pom</packaging>
     <name>SwitchYard: Console Parent</name>
     <description>SwitchYard Management Console parent project.</description>
@@ -46,11 +46,10 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:ssh//github.com/switchyard/jboss-switchyard/console.git</connection>
-        <developerConnection>scm:git:ssh://github.com/jboss-switchyard/console.git</developerConnection>
+        <connection>scm:git:https://github.com/jboss-switchyard/console.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:jboss-switchyard/console.git</developerConnection>
         <url>http://github.com/jboss-switchyard/console</url>
     </scm>
-
     <modules>
         <module>component</module>
         <module>gwt</module>
