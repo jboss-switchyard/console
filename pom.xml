@@ -30,6 +30,9 @@
         <developerConnection>scm:git:ssh://git@github.com:jboss-switchyard/console.git</developerConnection>
         <url>http://github.com/jboss-switchyard/console</url>
     </scm>
+    <properties>
+        <version.com.google.gwt>2.5.1</version.com.google.gwt>
+    </properties>
     <modules>
         <module>component</module>
         <module>gwt</module>
